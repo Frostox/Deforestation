@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="462" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="92" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="263" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Problem Statement">
+                <Property name="tabTitle" type="java.lang.String" value="Problem Statement"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" max="32767" attributes="0"/>
+                          <Component id="jLabel5" pref="437" max="32767" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="151" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Each cell in a matrix of size n*m contains either forest or a desert. "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Each year a desert converts all its neighbors (8 connected) into desert."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="How many years will it take to run out of forests completely?"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Algorithm">
+                <Property name="tabTitle" type="java.lang.String" value="Algorithm"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="457" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="1" pref="235" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPane1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;&#xf0d8; This problem can be compared to the Computer Graphics flood fill algorithm. In such a domain the required result is actually the amount of iterations flood fill algorithm is going to take to completely paint the screen.&#xa;&#xa;To solve the problem it is necessary to design an algorithm to efficiently fill in deserts in minimum number of years.&#xa;Algorithm:&#xa;&#xa;1.START.&#xa;2.Count number of deserts present and put&#x2019;em into a pool (call these &#x2018;seeds&#x2019;).&#xa;3.If no deserts are present or number of deserts equals n*m, STOP.&#xa;4.Check for number of forest neighbors for each element in the pool (array).&#xa;5.Select the one with highest neighbors and apply 8-connected conversion.&#xa;6.Update year value by 1.&#xa;7.Go to step 2.&#xa;&#xa;&#xa;o Let &#x2018;Ai j&#x2019; be the matrix of size n*m (n rows and m columns). Hence the total number of cells will obviously be n*m.&#xa;    &#xa;1&#x9;1&#x9;1&#x9;0&#x9;1&#xa;1&#x9;1&#x9;0&#x9;1&#x9;1&#xa;1&#x9;0&#x9;0&#x9;1&#x9;1&#xa;1&#x9;1&#x9;1&#x9;1&#x9;1&#xa;&#xa;&#xa;&#xa;o Let &#x2018;y&#x2019; be the number of years passed which is initially set to 0.&#xa;o Let cells with forests represent a value of 1 and cells with deserts represent a value of 0.&#xa;(i.e if the cell Ai j is a forest its value will be 1, else it&#x2019;ll be 0)&#xa;Let f(i,j) = &#xa;Ai+1 j + Ai-1 j + Ai j+1 + Ai j-1 + Ai+1 j+1 + Ai-1 j-1 + Ai+1 j-1 + Ai-1 j+1,&#xa;where&#xa; i = 0&#x2026;.n (index value for rows)&#xa; j = 0&#x2026;.m (index value for column)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;for eg, in above matrix;&#xa;for A2 1 ,f(2,1) =  1+1+0+1+1+1+1+0 = 6&#xa;              f(2,2) = 6&#xa;              f(1,2) = 5&#xa;              f(0,3) = 4&#xa; (The function for the number of forest neighbors for a particular seed or desert)&#xa;&#xa;&#xa;o Let Xp = &#xa;{f(0,0),f(0,1)&#x2026;f(0,m),f(1,0),f(1,1)&#x2026;.f(1,m)&#x2026;.f(n,m)}&#xa;where,&#xa;Ai j = 0 (the cell is a desert)&#xa;f(i,j) != 0 (the number of neighbor forests is not 0)&#xa;&#xa;&#xa;o (Xp is the pool and Xp.Size is pool&#x2019;s size)&#xa;For eg, in the above matrix;&#xa;Xp = {f(2,1),f(2,2),f(2,1),f(0,3)}&#xa;&#xa;&#xa;&#xa;o Let function max(Xp) return a cell Ci j from pool which has maximum number of forests as neighbors.&#xa;For eg, in above matrix;&#xa;max(Xp) will return either A2 1 or A&#xac;2 2&#xa;&#xa;o Let function iteration() include following steps&#xa;&#xf0a7; y=0&#xa;&#xf0a7; Xp = {f(0,0),f(0,1)&#x2026;f(0,m),f(1,0),f(1,1)&#x2026;.f(1,m)&#x2026;.f(n,m)}&#xa;&#xf0a7; Ci j = max(Xp)&#xa;&#xf0a7; Ci+1 j = Ci-1 j = Ci j+1 = Ci j-1 = Ci+1 j+1 = Ci-1 j-1 = Ci+1 j-1 = Ci-1 j+1 = 0&#xa;&#xf0a7; y = y+1&#xa;Iterate the function iteration() until the whole matrix is filled with deserts and no forests.&#xa;"/>
+                    <Property name="caretPosition" type="int" value="1"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
